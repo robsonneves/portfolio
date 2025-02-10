@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Portfolio - Robson Neves </title>
+
+	<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="./icons/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="./bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+	<script src="./bootstrap/js/popper.min.js"></script>
+	<script src="./bootstrap/js/bootstrap.min.js"></script>
+	
+	<style type="text/css">
+		
+		:root {
+			--color-background-01: #2b2c2c;
+			--color-background-02: #303131;
+			--color-background-03: #feb633;
+		  	--font-color-01: white;
+		  	--font-color-02: #feb633;
+		  	--font-color-03: #73736d;
+		  	--font-type-01: Monterrat-regular;
+		  	--font-type-02: Never-brat;
+		}
+
+		@font-face {
+		  	font-family: Never-brat;
+		  	src: url("./font/Never_brat/Never Brat.ttf")
+		}
+
+		h1{
+			color: var(--font-color-01);
+			font-family: Never-brat;
+		}
+		h2{
+			color: var(--font-color-01);	
+		}
+		h3{
+			color: var(--font-color-01);
+		}
+		hr{
+		  	border-color: var(--color-background-03);
+		  	box-sizing: border-box;
+		  	border: 3px solid var(--color-background-03);  
+		}
+		section{
+			padding: 100px 0 100px 0;
+		}
+		i {
+			font-size: 20px !important;
+			margin-right: 10px;
+		}
+		a {
+			color: var(--font-color-02);
+		}
+		a:hover {
+			color: var(--font-color-03);
+		}
+
+
+		.color-background-01{ background: var(--color-background-01);}
+		.color-background-02{ background: var(--color-background-02);}
+		.font-color-01{ color: var(--font-color-01); }
+		.font-color-02{ color: var(--font-color-02); }
+		.font-color-03{ color: var(--font-color-03); }
+		.font-01{ font-family: var(--font-type-01); }
+		.hr_tamanho_base{ width: 30%; }
+		.hr_tamanho_title{ width: 8%; }
+		.hr_tamanho_separacao{ width: 1%; }
+		.hr_footer{ border: 1px solid #73736d; }
+		.foto_perfil{ transform: rotate(45deg);
+		}
+	</style>
+</head>
+<body class="color-background-01">
+
+	<header class="container">
+		<div class="row justify-content-end" style="margin: 50px 0px 50px 0;">
+			<ul class="nav">
+			  	<li class="nav-item ">
+			    	<a class="nav-link active" href="#sobre_mim">Sobre mim</a>
+			  	</li>
+			  	<li class="nav-item">
+			    	<a class="nav-link" href="#portfolio">Portfólio</a>
+			  	</li>
+			  	<li class="nav-item">
+			    	<a class="nav-link" href="#contato">Contato</a>
+			  	</li>
+			</ul>
+		</div>
+	</header>
+	
+	<section>
+		<div class="container font-color-01">
+		  	<div class="row">
+		    	<div class="col">
+		    		<div class="row justify-content-end"> 
+						<h6><strong>Olá, eu sou</strong></h6>
+		    		</div>
+		    		<div class="row justify-content-end"> 
+						<h1>ROBSON NEVES</h1>
+					</div>
+		    		<div class="row justify-content-end"> 
+						<P>Designer e Editor de Imagens</P>
+		    		</div>
+	    	  	</div>
+		    	<div class="col align-self-end">
+					<div class="col">
+			    		<div class="row justify-content-center">  
+							<img src="./img/foto_perfil5.png" class="img-fluid rounded foto_perfil" alt="Foto Perfil Robson Neves" width="400x"> 
+						</div>
+					</div>
+					<div class="row justify-content-end">
+						Transformo ideias em artes visuais 
+					</div>
+			      	<!-- img src="./img/foto_perfil.jpeg" class="img-fluid rounded" alt="Foto Perfil Robson Neves" width="400px" -->
+				    
+		    	</div>
+		    </div>
+		</div>
+	</section>
+
+	<section id="sobre_mim" class="container-fluid color-background-02 font-color-01">
+		<div class="container">
+		  	<div class="row align-items-center">
+		  		<div class="col">
+		    		<div class="row justify-content-center"> 
+				      	<h2> Sobre mim </h2>
+			      	</div>
+					<hr class="hr_tamanho_base" style="margin-left: 22%;">
+		      	</div>	
+				<div class="col"> 
+					<div class="row"> 
+						<p style="text-align: justify;">
+							Sou formado em Sistemas para Internet desde 2015 e atuo como desenvolvedor de software, minha principal profissão. Agora, estou expandindo minha paixão pelo design, mergulhando no universo da criação visual. Trabalho com artes para redes sociais, edição de imagens e materiais para publicidade, sempre buscando entregar soluções criativas e impactantes. Meu objetivo é transformar ideias em visuais profissionais que conectam marcas e pessoas.
+						</p>
+					</div> 
+				</div>
+		  	</div>
+	  	</div>
+	</section>
+
+	<section id="portfolio" class="container color-background-01 font-color-01">
+		<div class="row justify-content-center"> 
+				<h2>Portfólio</h2>
+		</div>
+		<hr class="hr_tamanho_title" style="margin-bottom: 50px;">
+	  	<div class="row align-items-center">
+	  		<div class="col">
+	    		<div class="row justify-content-md-center">
+	    			<div class="col">
+	    				<img src="./img/Artboard_1.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    			<div class="col">
+	    				<img src="./img/Artboard_2.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    			<div class="col">
+	    				<img src="./img/Artboard_3.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<hr>
+	    	<div class="col">
+	    		<div class="row justify-content-center">
+	    			<div class="col">
+	    				<img src="./img/Artboard_4.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    			<div class="col">
+	    				<img src="./img/Artboard_5.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    			<div class="col">
+	    				<img src="./img/Artboard_6.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <hr class="hr_footer">
+	    <div class="row align-items-center">
+	  		<div class="col">
+	    		<div class="row justify-content-md-center">
+	    			<div class="col">
+	    				<img src="./img/Artboard_7.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    			<div class="col">
+	    				<img src="./img/Artboard_8.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    			<div class="col">
+	    				<img src="./img/Artboard_9.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<hr>
+	    	<div class="col">
+	    		<div class="row justify-content-center">
+	    			<div class="col">
+	    				<img src="./img/Artboard_10.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    			<div class="col">
+	    				<img src="./img/Artboard_11.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    			<div class="col">
+	    				<img src="./img/Artboard_12.png" class="img-fluid" alt="Imagem responsiva">
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="row align-items-center" style="margin: 50px 0 50px 0;">
+	  		<div class="col">
+	    		<div class="row justify-content-center">
+	    			<img src="./img/banner_02.png" class="img-fluid" alt="Imagem responsiva">
+	    			<hr>
+	    			<img src="./img/banner_03.png" class="img-fluid" alt="Imagem responsiva">
+	    		</div>
+	    	</div>
+	    </div>
+	</section>
+
+	<section id="contato" class="container-fluid color-background-02 font-color-01">
+		<div class="row justify-content-center"> 
+				<h2>Contato</h2>
+		</div>
+		<hr class="hr_tamanho_title" style="margin-bottom: 50px;">
+		<div class="row align-items-center">
+	  		<div class="col">
+	    		<div class="row justify-content-md-center">
+					<i class="fa fa-envelope icon"></i> robsonnevesrodrigues@yahoo.com.br
+	    		</div>
+	    		<div class="row justify-content-md-center" style="margin: 20px;">
+	    			<i class="fa fa-whatsapp" aria-hidden="true"></i> (41) 98717-9848
+	    		</div>
+	    	</div>
+	    </div>
+	    <hr class="hr_footer"  style="margin: 80px 0 20px 0;">
+	    <div class="row justify-content-md-center font-color-03">
+	    	todos os direitos reservados  <div style="font-family: Never-brat; margin-left: 10px;"> ROBSON NEVES. </div>
+	    </div>
+	</section>
+
+</body>
+</html>
