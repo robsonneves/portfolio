@@ -56,3 +56,4 @@ a:hover {
 .hr_tamanho_separacao{ width: 1%; }
 .hr_footer{ border: 1px solid #73736d; }
 .foto_perfil{ transform: rotate(45deg); }
+.imagem_hover:hover{ transform: scale(1.1, 1.1); }
